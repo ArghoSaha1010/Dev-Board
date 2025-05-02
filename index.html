@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Dev Board</title>
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="pl-28 pr-28 pt-5 bg-[#F4F7FF]">
+    <!-- navbar section -->
+    <div class="navbar bg-base-100 shadow-sm pl-6 pr-6 rounded-2xl">
+
+      <div class="flex-1">
+        <div class="flex items-center">
+            <img class="mr-2 w-7" src="./assets/logo.png" alt="">
+            <a class="text-xl">Dev<span class="font-bold">Board</span></a>
+        </div>
+      </div>
+
+      <div class="flex gap-9">
+
+        <div class="flex-none">
+            <div class="flex gap-3 bg-[#F4F7FF] rounded-full p-2">
+                <img class="rounded-lg"  src="./assets/checkbox.png" alt="">
+                <h1 class="font-bold text-xl">23</h1>
+            </div>
+          </div>
     
-</body>
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+                <img class="p-1 bg-[#F4F7FF]" alt="Tailwind CSS Navbar component" src="./assets/theme-btn.png"/>
+              </div>
+            </div>
+
+      </div>
+
+    </div>
+  </body>
 </html>
