@@ -32,7 +32,7 @@
           </div>
     
             <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
-              <div class="w-10 rounded-full">
+              <div class="w-10 rounded-full" onclick="changeColor()">
                 <img class="p-1 bg-[#F4F7FF]" alt="Tailwind CSS Navbar component" src="./assets/theme-btn.png"/>
               </div>
             </div>
@@ -74,8 +74,8 @@
                       <img src="./assets/calender.png" alt="Calendar" class="w-5 h-5">
                     </div>
                     <div class="flex flex-col">
-                      <p class="text-[#00303C] text-xs">Wed,</p>
-                      <h2 class="font-bold text-base sm:text-lg text-[#00303C]">Jul 28 2025</h2>
+                      <p class="text-[#00303C] text-xs" id="weekday">Loading...,</p>
+                      <h2 class="font-bold text-base sm:text-lg text-[#00303C] date" id="date">Loading...</h2>
                     </div>
                   </div>
                 </div>
@@ -190,6 +190,7 @@
 
     </section>
       
-
+    <script src="./bodyColorChange.js"></script>
+    <script src="./RealDay&Date.js"></script>
   </body>
 </html>
