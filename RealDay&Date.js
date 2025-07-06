@@ -25,7 +25,7 @@
   
         const shortWeekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   
-        document.getElementById("weekday").innerText = shortWeekdays[dayIndex];
+        document.getElementById("weekday").innerText = shortWeekdays[dayIndex] + ',';
       }
   
       updateWeekday();
